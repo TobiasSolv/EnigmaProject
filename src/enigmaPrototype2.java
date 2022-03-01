@@ -6,22 +6,22 @@ public class enigmaPrototype2 {
 
     void go() {
 
-        char i;
-        i = in.next().charAt(0);
+        char input;
+        input = in.next().charAt(0);
 
-        if (i >= 'A' && i <= 'Z') {
-            int cc = (i - 64);
+        if (input >= 'A' && input <= 'Z') {
+            int cc = (input - 64);
             System.out.println(cc);
-        } else if (i == 'Ø') {
-            int cc = (i - 189);
-            System.out.println(cc);
-
-        } else if (i == 'Æ') {
-            int cc = (i - 170);
+        } else if (input == 'Ø') {
+            int cc = (input - 189);
             System.out.println(cc);
 
-        } else if (i == 'Å') {
-            int cc = (i - 168);
+        } else if (input == 'Æ') {
+            int cc = (input - 170);
+            System.out.println(cc);
+
+        } else if (input == 'Å') {
+            int cc = (input - 168);
             System.out.println(cc);
 
         }

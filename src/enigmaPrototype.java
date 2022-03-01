@@ -6,27 +6,27 @@ public class enigmaPrototype {
 
     void go(){
 
-        int n;
-        n = in.nextInt();
+        int input;
+        input = in.nextInt();
 
-        if (n > 0 && n < 27) {
-            char ch = (char)(n + 64);
+        if (input > 0 && input < 27) {
+            char ch = (char)(input + 64);
             System.out.println(ch);
         }
 
-        else if (n == 27){
+        else if (input == 27){
             char ch = (char)(0x00C6);
             System.out.println(ch);
 
         }
 
-        else if (n == 28){
+        else if (input == 28){
             char ch = (char)(0x00D8);
             System.out.println(ch);
 
         }
 
-        else if (n == 29){
+        else if (input == 29){
             char ch = (char)(0x00C5);
             System.out.println(ch);
 
