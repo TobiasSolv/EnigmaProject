@@ -11,18 +11,19 @@ public class enigmaPrototype2 {
 
         if (input >= 'A' && input <= 'Z') {
             int cc = (input - 64);
-            System.out.println(cc);
+
+
         } else if (input == 'Ø') {
             int cc = (input - 189);
-            System.out.println(cc);
+
 
         } else if (input == 'Æ') {
             int cc = (input - 170);
-            System.out.println(cc);
+
 
         } else if (input == 'Å') {
             int cc = (input - 168);
-            System.out.println(cc);
+
 
         }
 
