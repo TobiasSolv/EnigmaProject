@@ -12,14 +12,11 @@ public class enigmaPrototype2 {
         if (input >= 'A' && input <= 'Z') {
             int cc = (input - 64);
 
-
         } else if (input == 'Ø') {
             int cc = (input - 189);
 
-
         } else if (input == 'Æ') {
             int cc = (input - 170);
-
 
         } else if (input == 'Å') {
             int cc = (input - 168);

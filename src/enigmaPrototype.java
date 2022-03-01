@@ -11,25 +11,18 @@ public class enigmaPrototype {
 
         if (n > 0 && n < 27) {
             char ch = (char)(n + 64);
-
         }
 
         else if (n == 27){
             char ch = (char)(0x00C6);
-
-
         }
 
         else if (n == 28){
             char ch = (char)(0x00D8);
-
-
         }
 
         else if (n == 29){
             char ch = (char)(0x00C5);
-
-
         }
 
 
